@@ -8,9 +8,19 @@ dico_9_lettres.txt
 dico_10_lettres.txt
 On enlève les accents, les espaces, les tirets et les mots en double.
 """
+import unidecode
 
 def lire_filtrer_mots(chemin_lexique, longueur):
-    return []
+    mots_fitre = set()
+    with open(chemin_lexique, 'r', encoding='utf-8') as file:
+        for line in file:
+            word = line.strip()
+            word = unidecode.unidecode(word)
+            ''.join(chara for chara in word if chara.isalpha())
+            word = word.upper()
+            if len(word) == longueur:
+                mots_fitre.add(word)
+    return list(mots_fitre)
 
 
 def ecrire_liste_mots(liste_mots:list, longueur:int) -> None:
