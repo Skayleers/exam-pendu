@@ -22,15 +22,22 @@ def lire_filtrer_mots(chemin_lexique, longueur):
     Returns:
         List[str]: Liste des mots filtrés ayant la longueur spécifiée, en majuscules et nettoyés.
     """
-    mots_filtre = []
+    mots_filtre = set()
     with open(chemin_lexique, 'r', encoding='utf-8') as file:
-        for line in file:
-            word = line.strip().split()[0]
-            word = unidecode.unidecode(word)
-            word = word.upper()
-            if len(word) == longueur:
-                mots_filtre.add(word)
-            mots_filtre = set(mots_filtre)
+        lines = file.readlines()
+
+        if not lines:
+            raise ValueError("Le fichier est vide.")
+
+        for line in lines:
+            line_clean = line.strip()
+            if line_clean:
+                word = line_clean.split()[0]
+                word = unidecode.unidecode(word)
+                word = word.upper()
+                word = word.replace('-', '')
+                if len(word) == longueur:
+                    mots_filtre.add(word)
     return list(mots_filtre)
 
 
