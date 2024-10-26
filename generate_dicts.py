@@ -9,9 +9,19 @@ dico_10_lettres.txt
 On enlève les accents, les espaces, les tirets et les mots en double.
 """
 import unidecode
-import string
 
 def lire_filtrer_mots(chemin_lexique, longueur):
+    """
+    Lit tous les mots d'un fichier texte et les filtre pour ne conserver que ceux ayant la longueur
+    demandée. La fonction retourne ces mots en majuscules et nettoyés (accents, espaces, tirets) sous forme de liste.
+
+    Args:
+        chemin_lexique (str): Chemin vers le fichier contenant la liste des mots.
+        longueur (int): Longueur des mots à filtrer.
+
+    Returns:
+        List[str]: Liste des mots filtrés ayant la longueur spécifiée, en majuscules et nettoyés.
+    """
     mots_filtre = []
     with open(chemin_lexique, 'r', encoding='utf-8') as file:
         for line in file:
