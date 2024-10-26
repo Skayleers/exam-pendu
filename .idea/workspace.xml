@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48af8f93-7326-499e-9c56-89fec727f0b0" name="Changes" comment="">
+    <list default="true" id="48af8f93-7326-499e-9c56-89fec727f0b0" name="Changes" comment="lire_filtrer_mots_complet">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -36,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.generate_dicts.executor&quot;: &quot;Run&quot;,
     &quot;Python.generate_list_valid_words.executor&quot;: &quot;Run&quot;,
     &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
     &quot;Python.solver.executor&quot;: &quot;Run&quot;,
@@ -58,7 +62,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.solver">
+  <component name="RunManager" selected="Python.generate_dicts">
+    <configuration name="generate_dicts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exam-pendu" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_dicts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="generate_list_valid_words" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SolverPendu" />
       <option name="ENV_FILES" value="" />
@@ -132,14 +158,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.generate_dicts" />
       <item itemvalue="Python.generate_list_valid_words" />
       <item itemvalue="Python.hangman" />
       <item itemvalue="Python.solver" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hangman" />
+        <item itemvalue="Python.generate_dicts" />
         <item itemvalue="Python.solver" />
+        <item itemvalue="Python.hangman" />
         <item itemvalue="Python.generate_list_valid_words" />
       </list>
     </recent_temporary>
@@ -162,10 +190,32 @@
       <workItem from="1729538622549" duration="12936000" />
       <workItem from="1729551568554" duration="310000" />
     </task>
+    <task id="LOCAL-00001" summary="lire_filtrer_mots_compl">
+      <option name="closed" value="true" />
+      <created>1729847365022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729847365022</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lire_filtrer_mots_complet">
+      <option name="closed" value="true" />
+      <created>1729848884990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729848884990</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lire_filtrer_mots_compl" />
+    <MESSAGE value="lire_filtrer_mots_complet" />
+    <option name="LAST_COMMIT_MESSAGE" value="lire_filtrer_mots_complet" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SolverPendu$generate_list_valid_words.coverage" NAME="generate_list_valid_words Coverage Results" MODIFIED="1729548428678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
