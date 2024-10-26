@@ -2,11 +2,12 @@ import pytest
 from generate_dicts import lire_filtrer_mots
 
 def test_lire_filtrer_mots_vide():
-    # Fichier vide ==> retourne une erreur
+    """Vérifie que renvoie une erreur si le fichier texte est vide"""
     with pytest.raises(ValueError):
         lire_filtrer_mots("data_test/filetest_empty.txt", 8)
 
 def test_lire_filtrer_mots_long():
+    """Vérifie que les mots renvoyés sont de la bonne longueur"""
     liste_mots = lire_filtrer_mots("data_test/filetest3.txt", 6)
     liste_mots_2 = lire_filtrer_mots("data_test/filetest1.txt", 6)
     for mot in liste_mots:
@@ -15,6 +16,7 @@ def test_lire_filtrer_mots_long():
         assert len(mot) == 6
 
 def test_lire_filtrer_mots_nettoyage():
+    """Vérifie que les mots sont nettoyés correctement"""
     liste_mots = lire_filtrer_mots("data_test/filetest1.txt", 6)
     mots_valides = ["ECOUTE", "ARRETE", "CAMION"]
     assert sorted(mots_valides) == sorted(liste_mots)

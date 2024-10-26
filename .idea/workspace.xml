@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48af8f93-7326-499e-9c56-89fec727f0b0" name="Changes" comment="docu_2">
-      <change afterPath="$PROJECT_DIR$/tests/test_lire_filtrer_mots.py" afterDir="false" />
+    <list default="true" id="48af8f93-7326-499e-9c56-89fec727f0b0" name="Changes" comment="tests_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dico_10_lettres.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/dico_10_lettres.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dico_6_lettres.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/dico_6_lettres.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dico_7_lettres.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/dico_7_lettres.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dico_8_lettres.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/dico_8_lettres.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dico_9_lettres.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/dico_9_lettres.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_dicts.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_dicts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_generate_valid_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_generate_valid_words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_lire_filtrer_mots.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_lire_filtrer_mots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.pytest for test_generate_valid_words.test_generate_valid_words_0_letter.executor": "Run",
+    "Python tests.pytest for test_generate_valid_words.test_generate_valid_words_start_d.executor": "Run",
+    "Python tests.pytest for test_generate_valid_words.test_generate_valid_words_vide.executor": "Run",
     "Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_long.executor": "Run",
     "Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_nettoyage.executor": "Run",
     "Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_vide.executor": "Run",
@@ -70,51 +68,56 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_nettoyage">
-    <configuration name="generate_dicts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_generate_valid_words.test_generate_valid_words_0_letter">
+    <configuration name="pytest for test_generate_valid_words.test_generate_valid_words_0_letter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="exam-pendu" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_dicts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_generate_valid_words.test_generate_valid_words_0_letter&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="solver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SolverPendu" />
+    <configuration name="pytest for test_generate_valid_words.test_generate_valid_words_start_d" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="exam-pendu" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="TDL" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solver.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_generate_valid_words.test_generate_valid_words_start_d&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_generate_valid_words.test_generate_valid_words_vide" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="exam-pendu" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_generate_valid_words.test_generate_valid_words_vide&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_long" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -151,37 +154,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_vide" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="exam-pendu" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lire_filtrer_mots.test_lire_filtrer_mots_vide&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.generate_dicts" />
-      <item itemvalue="Python.solver" />
+      <item itemvalue="Python tests.pytest for test_generate_valid_words.test_generate_valid_words_0_letter" />
+      <item itemvalue="Python tests.pytest for test_generate_valid_words.test_generate_valid_words_start_d" />
+      <item itemvalue="Python tests.pytest for test_generate_valid_words.test_generate_valid_words_vide" />
       <item itemvalue="Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_long" />
       <item itemvalue="Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_nettoyage" />
-      <item itemvalue="Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_vide" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_generate_valid_words.test_generate_valid_words_0_letter" />
+        <item itemvalue="Python tests.pytest for test_generate_valid_words.test_generate_valid_words_vide" />
+        <item itemvalue="Python tests.pytest for test_generate_valid_words.test_generate_valid_words_start_d" />
         <item itemvalue="Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_nettoyage" />
         <item itemvalue="Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_long" />
-        <item itemvalue="Python.generate_dicts" />
-        <item itemvalue="Python tests.pytest for test_lire_filtrer_mots.test_lire_filtrer_mots_vide" />
-        <item itemvalue="Python.solver" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729947541036</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tests_1">
+      <option name="closed" value="true" />
+      <created>1729950728223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729950728223</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +249,8 @@
     <MESSAGE value="solver_compl" />
     <MESSAGE value="docu" />
     <MESSAGE value="docu_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="docu_2" />
+    <MESSAGE value="tests_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests_1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SolverPendu$generate_list_valid_words.coverage" NAME="generate_list_valid_words Coverage Results" MODIFIED="1729548428678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
