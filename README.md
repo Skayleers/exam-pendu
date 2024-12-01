@@ -1,4 +1,4 @@
-# Examen Solver pour Pendu
+# Branche bonus Examen Solver pour Pendu
 
 Le code le jeu est inspiré de [geeksforgeeks](https://www.geeksforgeeks.org/hangman-game-with-a-gui-in-python/).  
 Les images du pendu viennent de [wikipedia](https://commons.wikimedia.org/wiki/File:Hangman-0.png#file).  
